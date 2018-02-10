@@ -1,4 +1,4 @@
-# Project Title
+# Trendy Super Edgy Airlines
 
 Simple static one page site built with HTML/CSS
 
