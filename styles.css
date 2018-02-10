@@ -1,0 +1,242 @@
+/* start with importing if you need to */
+@import url('https://fonts.googleapis.com/css?family=Martel|Mr+Dafoe|Rajdhani|Taviraj');
+
+/* my fonts:
+------these are for you to copy for later when styling an element-------
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Taviraj', serif;
+font-family: 'Martel', serif;
+font-family: 'Mr Dafoe', cursive; */
+
+
+* {
+  margin: 0;
+}
+
+p, h3, h2, a {
+  font-family: 'Rajdhani', sans-serif;
+  color: #dff9fb;
+
+}
+
+h1 {
+  font-family: 'Mr Dafoe', cursive;
+  color: #dff9fb;
+
+}
+
+body {
+  background-color: #DFDBE5;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+nav, footer {
+  padding: 2em;
+  height: 100%;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1em;
+  background-color: #30336b;
+  color: #dff9fb;
+  text-align: center;
+}
+
+.links ul {
+ display:flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ justify-content: space-between;
+ align-content: flex-start;
+ align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+.heroWelcome {
+  color: #dff9fb;
+  background-image: url("images/vincent-versluis-240048.jpg");
+  height: 102vh;
+  /* explain why you need 102vh when clipping  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align: center;
+
+  clip-path: polygon(0 0%, 100% 0%, 100% 90%, 0% 100%);
+}
+
+@keyframes animationFrames{
+  0% {
+    opacity:0;
+    transform:  translate(0px,-30px)  ;
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+.heroHeading {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 4em;
+  animation: animationFrames ease 2s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards; /*when the spec is finished*/
+  padding-top: 1em;
+}
+
+.heroText {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 2em;
+  animation: animationFrames ease 4s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards; /*when the spec is finished*/
+  padding-top: 6em;
+}
+
+
+.callToAction {
+ height: 50vh;
+ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ padding: 5em;
+
+ text-align: center;
+
+}
+
+button {
+
+  margin-top: 3em;
+
+
+  position: relative;
+  vertical-align: top;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #2ecc71;
+  border: 0;
+  border-bottom: 2px solid #28be68;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #28be68;
+  box-shadow: inset 0 -2px #28be68;
+}
+button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.about {
+  clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+  background-image: url("images/javier-allegue-barros-493611.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+
+}
+.about h1 {
+  font-family: 'Martel', serif;
+}
+
+.about section {
+ margin-bottom: 2em;
+}
+
+/* so at this point each section box started to go haywire because there was no standard container so i made aboutContainer to standardize each section , i dot want to make changes on .about because the clipped path would hide some of the content so nesting it further fixes this problem */
+
+.aboutContainer {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+.contactContainer {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.contactContainer, .contactContainer a {
+  color: #dff9fb;
+  /* contains 3 types, span/a tags/h3  */
+}
+/* ^^font color fix^^ */
+
+
+
+.contactContainer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* its better to style the actual thing you want to style so im applying my styles to the ul component of contact instead of working on the .contactContainer */
+
+.contactContainer li {
+    display: flex;
+    flex-direction: column;
+    border-left: solid;
+    border-left-width: thin;
+    margin-left: 2em;
+
+}
+
+/* now i want to edit how each li behaves without specifying each one */
+
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+ /*-styles before these queries are your mobile view (standard view)----*/
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
