@@ -8,11 +8,11 @@ Simple static one page site built with HTML/CSS
 
 From Terminal:
 
-git clone git@github.com:ianmitch90/HipsterAirlinesExample.git
+'''git clone git@github.com:ianmitch90/HipsterAirlinesExample.git'''
 
-cd HipsterAirlinesExample
+'''cd HipsterAirlinesExample'''
 
-open index.html
+'''open index.html'''
 
 
 
