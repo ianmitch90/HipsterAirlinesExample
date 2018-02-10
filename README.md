@@ -2,7 +2,7 @@
 
 Simple static one page site built with HTML/CSS
 
-![Alt Text](https://gfycat.com/UnluckyAggressiveEskimodog)
+![Alt Text](https://thumbs.gfycat.com/UnluckyAggressiveEskimodog-size_restricted.gif)
 
 ## Getting Started
 
