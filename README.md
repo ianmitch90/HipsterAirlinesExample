@@ -9,7 +9,9 @@ Richelle Billones
 Camden Kirkland
 Akanksha Kapoor
 Brandon (fixed)
-Jeffrey VanHorn
+Nestor Ramirez
 Brandon (again)
-
-
+Jeffrey VanHorn
+Riffon
+Brandon (again)
+Manuel Padilla
