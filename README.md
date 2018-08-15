@@ -1,4 +1,6 @@
+<<<<<<< HEAD
 Thanh Dang
+
 BRANDON GATLIN!!!!
 Josephine Cortez-Ayala
 Diana 
@@ -16,3 +18,6 @@ Riffon
 Brandon (again)
 Manuel Padilla
 sean brennan
+Malcolm Berry 
+Aime
+
