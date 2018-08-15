@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 Thanh Dang
-
 BRANDON GATLIN!!!!
 Josephine Cortez-Ayala
 Diana 
