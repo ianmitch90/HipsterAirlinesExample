@@ -1,13 +1,24 @@
-/* start with importing if you need to */
+/* start with importing the fonts!!! 
+usually you would just use the "HTML" Link in your <head> tags
+
+importing in css is not so widely supported on older browsers/ less performant than using links in your HTML head tag but, its nice to know this exists */
+
 @import url('https://fonts.googleapis.com/css?family=Martel|Mr+Dafoe|Rajdhani|Taviraj');
 
-/* my fonts:
+
+/* 
+
+my fonts:
+
 ------these are for you to copy for later when styling an element-------
 font-family: 'Rajdhani', sans-serif;
 font-family: 'Taviraj', serif;
 font-family: 'Martel', serif;
 font-family: 'Mr Dafoe', cursive; */
 
+/* so the ' * ' in css means ALL elements on the page get this style, use this sparingly and for generalized rules, usually you will find it used in your RESET.css or Normalize.css that you might use, not the best practice to do this for a lot of properties.
+
+HOWEVER! THIS RULE IS EASILY CHANGED! meaning: even though everything on the page gets margin: 0, anywhere else i define margin again gets applied INSTEAD of the " * " rule i set earlier */
 
 * {
   margin: 0;
@@ -24,6 +35,8 @@ h1 {
   color: #dff9fb;
 
 }
+
+/* visit svgBackgrounds.css for more information about INLINE SVG's  and parallaxing! */
 
 body {
   background-color: #DFDBE5;
@@ -54,11 +67,22 @@ li {
   list-style: none;
 }
 
+/* I used a clip path to make the angled edges on each section, NOTICE: CLIPPING A PATH CLIPS INSIDE ITS BORDER
+
+meaning: the original content box is there, margin adds space between each section/ padding inside a clipped path might hide elements contained by the section 
+
+read more here:
+https: //css-tricks.com/almanac/properties/c/clip/
+
+make your own using this tool!!! its really easy without it 
+https: //bennettfeely.com/clippy/
+*/
+
 .heroWelcome {
   color: #dff9fb;
   background-image: url("images/vincent-versluis-240048.jpg");
   height: 102vh;
-  /* explain why you need 102vh when clipping  */
+  
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -66,9 +90,22 @@ li {
 
   text-align: center;
 
+/*-----------clip path----------*/
   clip-path: polygon(0 0%, 100% 0%, 100% 90%, 0% 100%);
 }
 
+
+/* keyframes are CSS's way to Animate things! you can do almost anything! 
+
+if you are intrested in performance later look up the translate3D property and why its more performant
+
+learn more: 
+https: //www.w3schools.com/css/css3_animations.asp
+
+use this easy tool to play around and make your own!! 
+http: //animista.net/
+
+*/
 @keyframes animationFrames{
   0% {
     opacity:0;
