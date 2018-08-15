@@ -1,12 +1,30 @@
 
 # Trendy Super Edgy Airlines
 
+<<<<<<< HEAD
 
 
 
 
 
 
+
+Simple static one page site built with HTML/CSS
+
+![Alt Text](https://thumbs.gfycat.com/UnluckyAggressiveEskimodog-size_restricted.gif)
+
+## Getting Started
+
+From Terminal:
+
+```
+git clone git@github.com:ianmitch90/HipsterAirlinesExample.git
+
+cd HipsterAirlinesExample
+
+open index.html
+```
+>>>>>>> e1f7a4d8e2ceeefbf5145dbfd2fa8ec44d3a6d2c
 
 
 
@@ -41,6 +59,7 @@ Malcolm
 
 
 
+Brandon (again)
 
 
 
