@@ -144,7 +144,9 @@ button:active {
 
 .about {
   clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
-  background-image: url("images/javier-allegue-barros-493611.jpg");
+  background-image: url("images/javier-allegue-barros-493611.jpg"), linear-gradient(44deg, #21D4FD 0%, #B721FF 100%);
+  background-blend-mode: multiply;
+;
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
