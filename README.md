@@ -22,6 +22,7 @@ open index.html
 ## Authors
 
 * **Ian Mitchell** - *Initial work* - [ianmitch90](https://github.com/ianmitch90)
+BRANDON GATLIN!!!!
 
 
 ## License
