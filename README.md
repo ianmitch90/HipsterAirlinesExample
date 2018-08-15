@@ -25,6 +25,8 @@ open index.html
 * **Ian Mitchell** - *Initial work* - [ianmitch90](https://github.com/ianmitch90)
 BRANDON GATLIN!!!!
 
+Josephine Cortez-Ayala
+
 
 ## License
 
