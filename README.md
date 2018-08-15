@@ -29,6 +29,15 @@ Thanh Dang
 Richelle Billones
 Camden Kirkland
 Akanksha Kapoor
+Diana 
+RJ Lighthall
+(Imran) Hamayon Hussain
+Alexander Phan
+Richelle Billones
+Camden Kirkland
+Akanksha Kapoor
+Brandon (fixed)
+Brandon (again)
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
@@ -40,4 +49,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * http://flatuicolors.com/palette/au (color palette)
 * http://www.heropatterns.com/ (SVG backgrounds)
 
->>>>>>> 24ea9d90404caa67b38ef3256509b4e85ec33c61
+>>>>>>> d3515d2b0aa7ae2617b31ed74c387b78f95c022c
