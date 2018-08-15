@@ -5,6 +5,8 @@ Simple static one page site built with HTML/CSS
 This Project acts as a living documentation on simple HTML and CSS
 for people starting out in Web Development
 
+Live Version: https://ianmitch90.github.io/HipsterAirlinesExample/
+
 See Credits and Comments in CSS for more Information!
 
 ![Alt Text](https://thumbs.gfycat.com/UnluckyAggressiveEskimodog-size_restricted.gif)
