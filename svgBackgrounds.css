@@ -16,12 +16,12 @@ https: //css-tricks.com/basics-css-blend-modes/
 */
 
 .skate {
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  
   background-image: url('./images/skateboard.jpg'), linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
   background-blend-mode: multiply;
+
+  background-attachment: fixed;
+  background-size: cover;
+  
 }
 
 /* 

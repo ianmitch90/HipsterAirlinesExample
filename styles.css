@@ -27,13 +27,13 @@ HOWEVER! THIS RULE IS EASILY CHANGED! meaning: even though everything on the pag
 p, h3, h2, a {
   font-family: 'Rajdhani', sans-serif;
   color: #dff9fb;
-
+  
 }
 
 h1 {
   font-family: 'Mr Dafoe', cursive;
   color: #dff9fb;
-
+  
 }
 
 /* visit svgBackgrounds.css for more information about INLINE SVG's  and parallaxing! */
@@ -94,6 +94,26 @@ https: //bennettfeely.com/clippy/
   clip-path: polygon(0 0%, 100% 0%, 100% 90%, 0% 100%);
 }
 
+.info {
+  display: flex;
+  background-image: url('./images/pexels-photo-1051075.jpeg'), linear-gradient(135deg, #192a56 0%, #2f3640 100%);
+  background-blend-mode: overlay;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+  
+}
+.info section {
+  width: 33%;
+  padding: 2em;
+}
+
+.info h2 {
+  margin-bottom: 1em;
+}
 
 /* keyframes are CSS's way to Animate things! you can do almost anything! 
 
@@ -139,7 +159,7 @@ http: //animista.net/
 
 
 .callToAction {
- height: 50vh;
+ height: 75vh;
  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
  display: flex;
  justify-content: center;
@@ -183,7 +203,6 @@ button:active {
   clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
   background-image: url("images/javier-allegue-barros-493611.jpg"), linear-gradient(44deg, #21D4FD 0%, #B721FF 100%);
   background-blend-mode: multiply;
-;
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -212,6 +231,8 @@ button:active {
 .aboutContainer {
   display: flex;
   flex-wrap: wrap;
+  text-align: start;
+  width: 50%;
 
 }
 
