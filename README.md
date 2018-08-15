@@ -1,4 +1,5 @@
-# Trendy Super Edgy Airlines
+# Trendy Super Edgy 
+Sean Brennan
 
 Simple static one page site built with HTML/CSS
 
