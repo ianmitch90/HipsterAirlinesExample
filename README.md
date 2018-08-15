@@ -24,10 +24,11 @@ open index.html
 
 * **Ian Mitchell** - *Initial work* - [ianmitch90](https://github.com/ianmitch90)
 BRANDON GATLIN!!!!
-
 Josephine Cortez-Ayala
-
-
+Thanh Dang
+Richelle Billones
+Camden Kirkland
+Akanksha Kapoor
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
@@ -38,6 +39,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Unsplash.com (Stock images)
 * http://flatuicolors.com/palette/au (color palette)
 * http://www.heropatterns.com/ (SVG backgrounds)
-=======
-Camden Kirkland
->>>>>>> 936186233512ea84f5b3530031a5b326c6cd4dcc
+
+>>>>>>> 24ea9d90404caa67b38ef3256509b4e85ec33c61
